@@ -1,6 +1,6 @@
 package pontoCartesiano;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
 
@@ -16,7 +16,7 @@ public class Main {
 		PontoCartesiano p = new PontoCartesiano(xA, yA, xB, yB);
 
 		System.out.println(p.distance());
-
+        sc.close();
 	}
 
 }
