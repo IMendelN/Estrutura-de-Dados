@@ -1,18 +1,22 @@
 package Atividade2;
 
+import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args) {
-        Vetor vetAluno = new Vetor();
-        Aluno a1 = new Aluno("Marcos", 17, 10.0);
-        Aluno a2 = new Aluno("João", 19, 8.5);
-        Aluno a3 = new Aluno("Sara", 21, 5.5);
 
-        vetAluno.add(a1);
-        vetAluno.add(a2);
-        vetAluno.add(a3);
+	public static void main(String[] args) {
 
-        System.out.println(vetAluno.contem(a3));
-        System.out.println(vetAluno.lenght());
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Escreva os valores de xA, yA e xB, yB respesctivamente: ");
+		double xA = sc.nextDouble();
+		double yA = sc.nextDouble();
+		double xB = sc.nextDouble();
+		double yB = sc.nextDouble();
+		
+		PontoCartesiano p = new PontoCartesiano(xA, yA, xB, yB);
 
-    }
+		System.out.println(p.distance());
+        sc.close();
+	}
+
 }
