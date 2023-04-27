@@ -1,4 +1,4 @@
-package nohs;
+package lists.nohs;
 
 import baseClass.Vehicle;
 
@@ -21,16 +21,16 @@ public class NohVehicle {
 		return next;
 	}
 
-	public void setPrevious(NohVehicle n) {
-		this.previous = n;
+	public void setPrev(NohVehicle previous) {
+		this.previous = previous;
 	}
 	
-	public NohVehicle getPrevious() { 
+	public NohVehicle getPrev() { 
 		return previous;
 	}
 
-	public void setNext(NohVehicle n) {
-		this.next = n;
+	public void setNext(NohVehicle next) {
+		this.next = next;
 	}
 	
 	public String toString() {
