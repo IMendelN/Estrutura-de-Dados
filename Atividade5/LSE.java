@@ -57,7 +57,7 @@ public class LSE implements Lista{
         return true;
     }
 
-    public boolean estahVazia(){
+    public boolean estaVazia(){
         if(inicio == null){
             return true;
         }

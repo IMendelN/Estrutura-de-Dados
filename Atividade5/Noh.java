@@ -1,15 +1,13 @@
 package Atividade5;
 
-public class Noh{
+public class Noh {
     private Object info;
     private Noh prox;
 
-    public Noh (Object info){
+    public Noh(Object info) {
         this.info = info;
         this.prox = null;
     }
-
-    
 
     /**
      * @return int return the info
@@ -32,5 +30,4 @@ public class Noh{
         this.prox = prox;
     }
 
-    
 }

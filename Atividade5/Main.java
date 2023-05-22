@@ -7,7 +7,7 @@ public class Main {
         aluno newaluno2 = new aluno("Gabriela", 20, 6.5);
         l.insereInicio(newaluno);
         l.insereInicio(newaluno2);
-        System.out.println(l.estahVazia());
+        System.out.println(l.estaVazia());
         l.imprime();
     }
 }
