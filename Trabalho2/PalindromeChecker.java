@@ -32,21 +32,21 @@ public class PalindromeChecker {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Insire a palavra: ");
-        String word = sc.nextLine();
-        boolean isPalindrome = isPalindrome(word);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Insire a palavra: ");
+            String word = sc.nextLine();
+            boolean isPalindrome = isPalindrome(word);
 
-        if (isPalindrome) {
-            System.out.println(word + " é um palíndromo.");
-        } else {
-            System.out.println(word + " não é um palíndromo.");
+            if (isPalindrome) {
+                System.out.println(word + " é um palíndromo.");
+            } else {
+                System.out.println(word + " não é um palíndromo.");
+            }
         }
-
         Stack<String> studentsStack = new Stack<>();
-        studentsStack.push("Alice");
-        studentsStack.push("Bob");
-        studentsStack.push("Charlie");
+        studentsStack.push("Marcos");
+        studentsStack.push("João");
+        studentsStack.push("Maria");
 
         System.out.println("Tamanho da pilha de alunos: " + studentsStack.size());
         System.out.println("Pilha de alunos vazia? " + studentsStack.isEmpty());
@@ -54,9 +54,9 @@ public class PalindromeChecker {
 
         // Utilizando a pilha para inverter a ordem dos alunos em uma fila representada por uma Lista Simplesmente Encadeada (LSE)
         LSEQueue<String> studentsQueue = new LSEQueue<>();
-        studentsQueue.enqueue("David");
-        studentsQueue.enqueue("Eve");
-        studentsQueue.enqueue("Frank");
+        studentsQueue.enqueue("Iago");
+        studentsQueue.enqueue("Gabriela");
+        studentsQueue.enqueue("Ana");
 
         System.out.println("Fila original:");
         studentsQueue.printQueue();
