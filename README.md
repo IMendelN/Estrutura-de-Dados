@@ -12,7 +12,10 @@ Atividade 8 - Vetor de Números [1000] com Tempo
 Atividade 9 - Vetor de Números [1000] com Tempo e randomizador
 
 Marco 2:
-Atividade 11 - 
+Atividade 11 - Impressão de uma fila de Alunos.
+Atividade 12 - Fila de Alunos com métodos de size e isEmpty com impressão.
+Atividade 13 - Mapa de um Vetor de Alunos.
+Atividade 14_T2 - Complementação do Trabalho2 adicionando os métodos
 
 Trabalhos:
 EstruturaMarco1 - PampaLoca: Locadora de veículos com lista duplamente encadeada.
